@@ -1,7 +1,7 @@
 # Kafka without zookeeper (ie kraft), docker compose
 
 Went the docker compose way instead of installing Kafka into any OS (Mac/Win/Lin)
-Downloaded the docker-compose.yml in the with-zookeper folder from the following:
+Downloaded the docker-compose.yml in the with-kraft folder from the following:
 https://codersee.com/how-to-set-up-kafka-without-zookeeper-using-docker-compose/
 
 ## Working with the containers
