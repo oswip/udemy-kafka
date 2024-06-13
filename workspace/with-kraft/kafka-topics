@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker exec $(docker ps --filter "name=kafka1" | grep kafka | awk '{print $1}') kafka-topics "$@"
+docker exec $(docker ps --filter "name=kafka1" | grep kafka | awk '{print $1}') kafka-topics --bootstrap-server kafka1:9092 "$@"
 
