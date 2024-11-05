@@ -9,8 +9,8 @@ https://codersee.com/how-to-set-up-kafka-without-zookeeper-using-docker-compose/
 To run the `kafka-topics` command on the first kafka node (`kafka1`):
 
 ```shell
-docker exec $(docker ps --filter "name=kafka1" | grep kafka | awk '{print $1}') kafka-topics --bootstrap-server kafka1:9092
-docker exec $(docker ps --filter "name=kafka1" | grep kafka | awk '{print $1}') kafka-topics --bootstrap-server kafka1:9092 --list
+docker exec $(docker ps --filter "name=kafka1" | grep kafka | awk '{print $1}') kafka-topics --list --bootstrap-server kafka1:9092
+docker exec $(docker ps --filter "name=kafka1" | grep kafka | awk '{print $1}') kafka-topics --list --bootstrap-server kafka1:9092
 ```
 
 Or try kafka-topics, which uses the above command.
