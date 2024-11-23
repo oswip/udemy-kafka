@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"terminal.integrated.fontSize": 16
+		"terminal.integrated.fontSize": 16,
+		"editor.tabSize": 2,
+		"editor.fontSize": 14,
+		"gitlens.telemetry.enabled": false
 	}
 }
